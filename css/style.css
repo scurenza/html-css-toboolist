@@ -14,6 +14,7 @@ body{
     margin-left: 16px;
 }
 
+
 /* HEADER */
 .header-logo{
     height: 80px;
@@ -29,4 +30,48 @@ body{
     font-size: 3rem;
     font-weight: 750;
     vertical-align: middle;
+}
+
+/* MAIN */
+.background{
+    background-color: #f6f8f9;
+}
+
+.container-main {
+    width: 70%;
+    padding-top: 20px;
+    margin: 20px auto 10px;
+    background-color: white;
+
+}
+
+.container-button{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+/* buttons */
+.add-task{
+    color: white;
+    background-color: #47adf1;
+    border-style: none;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.add-section{
+    color: rgba(128, 128, 128, 0.541);
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.301);
+    padding: 8px;
+    border-radius: 6px;
+}
+
+/* to do list  */
+.container-list{
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 120px;
 }
