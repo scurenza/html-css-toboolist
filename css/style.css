@@ -40,16 +40,21 @@ header{
 /* MAIN */
 
 .container-main {
-    width: 70%;
+    width: 90%;
     padding-top: 1em;
     margin: 20px auto 10px;
-    background-color: white;
 
 }
 
 .container-button{
     width: 80%;
-    margin: 1em auto;
+    margin: 0.1em auto;
+    background-color: white;
+    padding-left: 5em;
+    padding-top: 15px;
+    padding-bottom: 0.5em;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 /* buttons */
@@ -72,11 +77,81 @@ header{
 /* to do list  */
 .container-list{
     width: 80%;
-    margin: 1em auto;
+    margin: 0.3em auto;
     padding-top: 20px;
+    padding-left: 4.5em;
+    padding-bottom: 2em;
     line-height: 40px;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 ul{
     list-style-type: none;
+}
+
+.major-point{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.minor-points{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.check{
+    display: inline-block;
+    color: green;
+    border: 2px solid green;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.cross{
+    display: inline-block;
+    color: red;
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.notification{
+    color: white;
+    padding: 7px;
+    font-size: 0.5rem;
+    border-radius: 11px;
+}
+
+.blue{
+    background-color: #45abea;
+}
+
+.violet{
+    background-color: #9c72e4;
+}
+
+.lightgreen{
+    background-color: #64c0a9;
+}
+
+.orange{
+    background-color: #f29e33;
+}
+
+.purple{
+    background-color: #d863a1;
+}
+
+.darkgreen{
+    background-color: #b0c926;
 }
