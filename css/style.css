@@ -1,0 +1,32 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ml{
+    margin-left: 16px;
+}
+
+/* HEADER */
+.header-logo{
+    height: 80px;
+    line-height: 80px;
+}
+
+#logo-img{
+    height: 60px;
+    vertical-align: middle;
+}
+
+.header-logo span{
+    font-size: 3rem;
+    font-weight: 750;
+    vertical-align: middle;
+}
